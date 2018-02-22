@@ -128,7 +128,7 @@ public class Recursion {
         //10: there is a 1 in front of 0, so the count of 0 is 2^1, total is 2 count
         //1010: for the first 0, there is 1 in front of it, so the count is 2^1, is 2 count
         //for the second 0, there is 2 number 1 in front of it, so the count is 2^2, is 4 count
-        //Total 0 count is 2 + 4 = 6; total count of 1 in this case is (2 to the power of 2)-1 = 3; total count is 6 + 3 = 9
+        //Total 0 count is 2 + 4 = 6; total count of 1 in this case is (2^2)-1 = 3; total count is 6 + 3 = 9
 
         int count1 = 0;
         int count0 = 0;
